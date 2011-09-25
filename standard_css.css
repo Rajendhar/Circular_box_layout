@@ -1,0 +1,102 @@
+
+/*
+Template: The name of project Stylesheet
+Version: 1.0  
+Date: 
+
+[Table Of Contents] 
+
+	0- Reset
+	1- Global
+	2- Links
+	3- Headings and Paragraph
+	4- Header 
+		4.1- Navigation
+	5- Content 
+		5.1- Left Content
+		5.2- Middle Content
+		5.3- Right Content
+	6- Footer 
+
+*/
+
+/* =0 Reset
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFF;
+	font: 12px/170% Verdana, sans-serif;
+	/*overflow-y:scroll;*/
+	margin:0 auto;
+	color: #494949;
+	
+}
+
+.content
+{
+background:#fff;
+float:left;
+width:3000px;
+height:3000px;
+}
+
+.center{
+ width:300px;
+ height:300px;
+ position:absolute;
+ background:#CC33FF;
+ z-index:9999;
+ margin:0 ;
+ padding:0;
+ 	}
+
+ .big{
+ width:300px;
+ height:400px;
+ position:absolute;
+ background:blueviolet;
+ z-index:9999;
+ margin:0 ;
+ padding:0;
+ 	}
+.min{
+ width:200px;
+ height:150px;
+ position:absolute;
+ background:#99CC66;
+ margin:0;
+
+
+	}
+
+.middle
+{
+  
+  width:300px;
+ position:absolute;
+   height:300px;
+  background:#0066CC; 
+  margin:0;
+
+
+}
+
+.max
+{
+width:200px;
+ height:300px;
+position:absolute;
+background:#993333;
+margin:0;
+
+}
